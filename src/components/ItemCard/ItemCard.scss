@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+
+.ItemCard {
+  border-radius: 10px;
+  padding: 15px;
+  width: 29%;
+  background-color: #49486f;
+  box-shadow: 0 2px 15px rgba(0,0,0,.6);
+  margin-bottom: 35px;
+
+  h2 {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  p {
+    cursor: pointer;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    opacity: 40%;
+  }
+}
+
+input, textarea {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  color: #dedeee;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+textarea {
+  font-size: 16px;
+}
+
+.description {
+  margin-bottom: 15px;
+}
+
+.line  {
+  width: 100%;
+  color: #dedeee;
+  margin-bottom: 25px;
+}
+
+.button-block {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
+

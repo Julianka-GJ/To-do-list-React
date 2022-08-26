@@ -1,0 +1,21 @@
+.container {
+  background: linear-gradient(#7a79ba, #9b79ba, #7999ba);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.add-form {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 50px;
+}
+
+.cards-block {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
